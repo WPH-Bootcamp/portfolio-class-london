@@ -1,14 +1,6 @@
 "use client";
 
-const brands = [
-  "Upwork",
-  "Zoom",
-  "Postman",
-  "Databricks",
-  "Airbnb",
-  "Dropbox",
-  "PayPal",
-];
+import brands from "@/constants/brands";
 
 export default function TrustedBrands() {
   return (
